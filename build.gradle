@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.badlogicgames.gdx:gdx:1.9.10'
+    implementation 'org.openjfx:javafx:11.0.2'
+    testImplementation 'junit:junit:4.13'
+}
